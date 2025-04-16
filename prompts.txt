@@ -1,0 +1,23 @@
+1. How can I ensure FastAPI properly serializes return values like `numpy.int64` without throwing internal server errors?
+
+2. What’s the best way to dynamically retrieve and display all available tables from a ClickHouse database?
+
+3. How can I design the UI to adapt intelligently based on whether the source is ClickHouse or Flat File?
+
+4. What’s a secure and scalable way to handle JWT token-based authentication for ClickHouse connections?
+
+5. How can I extract only the schema (column names) from a CSV without reading the entire file into memory?
+
+6. What’s the most user-friendly approach to let users select only specific columns they want to ingest?
+
+7. How can I display the number of records ingested and optionally preview a few rows to confirm successful ingestion?
+
+8. How can I surface backend errors clearly to the frontend without overwhelming non-technical users?
+
+9. What’s a good method to validate that ClickHouse actually received the ingested data correctly?
+
+10. How do I ensure local flat file paths (like on Windows) are interpreted correctly by the backend?
+
+11. Would a data preview feature help users verify input before ingestion, and how can I implement it efficiently?
+
+12. What’s the most modular way to support both ClickHouse → Flat File and Flat File → ClickHouse flows in one tool?
